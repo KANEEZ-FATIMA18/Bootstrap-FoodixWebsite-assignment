@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contact.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=1.1">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/flaticon/flaticon_foodix.css">
+</head>
+
+<body>
+
+    <!--_______________ NAVBAR _____________ -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container-fluid px-lg-5 px-3">
+            <a class="navbar-brand" href="#">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/logo/logo-white.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header ">
+                    <img src="	https://html.pixelfit.agency/foodix/assets/images/logo/logo-main.png" alt="">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bg-black">
+                    <ul class="navbar-nav justify-content-end align-items-center flex-grow-1 pe-5 gap-4">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Home</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Home Restaurant</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Home Burger</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Home Sushi</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Home Pizza</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Home Beef</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Menu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Menu List One</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Menu List Two</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Menu Grid</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Menu Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> About Us </a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Our Chefs</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Our Gallery</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Faqs</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Error 404</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Our Shop</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Product Details</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Cart</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Blog Standard</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex mt-3">
+                        <button class="btn btn-outline-danger bg-danger text-white me-3 py-3 px-3 fw-bold"
+                            style="width: 150px;">BOOK A
+                            TABLE</button>
+                        <button class="btn btn-outline-success bg-success text-white" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                            aria-controls="offcanvasWithBothOptions">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- contact hero  -->
+    <section class="contact-hero">
+        <h1>Contact us</h1>
+        <span class="d-flex gap-3 fw-bold"><a href="index.html">Home __</a><a href="contact.html">Contact</a></span>
+    </section>
+
+    <!-- have questions? get in touch! -->
+    <section class="touch-main">
+        <div class=" touch-child">
+            <div class="left">
+                <p class="text-danger fw-bold text-uppercase">Get in touch</p>
+                <h2 class="text-uppercase hero-heading" style="font-family: anton;letter-spacing: 2px;">
+                    have questions? get in <br> touch!
+                </h2>
+
+                <form class="row g-3">
+                    <!-- First row: Name & Email -->
+                    <div class="col-md-6  col-12">
+                        <input type="text" class="form-control px-3 py-3" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="email" class="form-control px-3 py-3" placeholder="Your Email" required>
+                    </div>
+
+                    <!-- Second row: Subject & Services -->
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control px-3 py-3" placeholder="Your Subject" required>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control px-3 py-3" placeholder="Your Services" required>
+                    </div>
+
+                    <!-- Third row: Textarea -->
+                    <div class="col-12">
+                        <textarea class="form-control px-3 py-3" rows="5" placeholder="Write message"
+                            required></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-danger button px-5 py-3 fw-bold">Submit Now</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="right">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/contact-1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- contact information  -->
+    <section class="py-5 text-center">
+        <div class="container" style="margin: 0 auto;">
+            <p class="text-warning small fw-bold mb-1">WHY CHOOSE US</p>
+            <h2 class="fw-bolder mb-5 hero-heading" style="font-family: anton;letter-spacing: 2px;">WHY WE’RE YOUR BEST
+                CHOICE</h2>
+            <div class="row g-4">
+
+                <div class="col-12 col-sm-6 col-lg-4 px-4">
+                    <div class="choose-box"
+                        style="background-color: white;box-shadow: 3px 3px 15px rgb(221, 219, 219);color: black;">
+                        <i class="fa-solid fa-location-dot"
+                            style="font-size: 25px;margin-bottom: 20px; border-radius: 50%;background-color: rgba(253, 220, 220, 0.76);padding: 20px; color: #BF2524 !important;"></i>
+                        <h5>Address</h5>
+                        <p>4140 Parker Rd. Allentown, <br>
+                            New Mexico 31134</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 px-4">
+                    <div class="choose-box"
+                        style="background-color: white;box-shadow: 3px 3px 15px rgb(221, 219, 219);color: black;">
+                        <!-- <img src="/flaticon/healthy-food.png" alt="" > -->
+                        <i class="fa-regular fa-envelope"
+                            style="font-size: 25px;margin-bottom: 20px; border-radius: 50%;background-color: rgba(253, 220, 220, 0.76);padding: 20px; color: #BF2524 !important;"></i>
+                        <h5>Email</h5>
+                        <p>foodixsupport@gmail.com <br>foodixinfo@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 px-4">
+                    <div class="choose-box"
+                        style="background-color: white;box-shadow: 3px 3px 15px rgb(221, 219, 219);color: black;">
+                        <!-- <img src="/flaticon/healthy-food.png" alt="" > -->
+                        <i class="fa-solid fa-location-dot"
+                            style="font-size: 25px;margin-bottom: 20px; border-radius: 50%;background-color: rgba(253, 220, 220, 0.76);padding: 20px; color: #BF2524 !important;"></i>
+                        <h5>Phone</h5>
+                        <p>+555-123 456 7890 <br>+555-123 776 8875</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- location map  -->
+
+    <div style="width: 100%; height: 500px;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96777.16150026117!2d-74.00840582560909!3d40.71171357405996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1706508986625!5m2!1sen!2sbd"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <!-- Footer Section  -->
+    <footer class="text-white pt-5 pb-4"
+        style="background-color: #111417; font-family:  sans-serif; position: relative;">
+        <div class="container text-md-left">
+            <div class="row ">
+
+                <!-- Logo-->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <img src="https://html.pixelfit.agency/foodix/assets/images/logo/logo-white.png" alt="">
+                    <p class="mt-3 " style="font-size:14px;color: #848181;">Discover culinary delights recipes and
+                        inspiration
+                        in our delightful food haven..</p>
+
+                    <!-- Social Icons -->
+                    <div class="mt-3">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="fw-bold text-uppercase mb-3">Contact Us</h6>
+                    <p style="font-size:14px;color: #848181;">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+                    <p style="font-size:14px;color: #848181;">+88-344-667-999</p>
+                    <p style="font-size:14px;color: #848181;">order@foodix.com</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="fw-bold text-uppercase mb-3">Quick Link</h6>
+                    <p><a href="#" class="text-decoration-none" style="font-size:14px;color: #848181;">Home</a></p>
+                    <p><a href="#" class="text-decoration-none " style="font-size:14px;color: #848181;">About Us</a></p>
+                    <p><a href="#" class="text-decoration-none " style="font-size:14px;color: #848181;">Services</a></p>
+                    <p><a href="#" class="text-decoration-none " style="font-size:14px;color: #848181;">Our Menu</a></p>
+                    <p><a href="#" class="text-decoration-none " style="font-size:14px;color: #848181;">Gallery</a></p>
+                </div>
+
+                <!-- Opening Times -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="fw-bold text-uppercase mb-3">Opening Time</h6>
+                    <p style="font-size:14px;color: #848181;">Monday: 10.00am - 05.00pm</p>
+                    <p style="font-size:14px;color: #848181;">Tuesday: 10.20am - 05.30pm</p>
+                    <p style="font-size:14px;color: #848181;">Wednesday: 10.30am - 05.50pm</p>
+                    <p style="font-size:14px;color: #848181;">Thursday: 11.00am - 07.10pm</p>
+                    <p style="font-size:14px;color: #848181;">Friday:Closed</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center py-3 border-top mt-4"
+            style="border-color: rgba(255,255,255,0.1)!important;color: #848181;">
+            © 2024 All rights reserved design by <span class="text-danger">Pixelfit</span>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

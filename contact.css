@@ -1,0 +1,71 @@
+.contact-hero{
+    background-image: url(	https://html.pixelfit.agency/foodix/assets/images/bg/page-bg.jpg);
+    height: 70vh;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contact-hero h1{
+    font-size: 4em;
+    color: white;
+    font-family: anton;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.contact-hero a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* get in touch  */
+
+.touch-main{
+    max-height: 120vh;
+    background-color: #F7F1E1;
+    padding: 30px 0px;
+}
+
+.touch-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+form input::placeholder{
+   color: #e7e1d2;
+}
+.button:hover{
+    background-color: green !important;
+    border: none;
+}
+   @media (max-width: 1200px) {
+    .touch-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        
+    }
+    .left{
+        width: 90%;
+    }
+    .right{
+        display: none;
+    }
+   }

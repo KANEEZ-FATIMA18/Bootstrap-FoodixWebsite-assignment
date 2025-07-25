@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOODIX</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=1.1">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- google font  -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/fonts/flaticon/flaticon_foodix.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <!--_______________ NAVBAR _____________ -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container-fluid px-lg-5 px-3">
+        <a class="navbar-brand" href="#">
+          <img src="https://html.pixelfit.agency/foodix/assets/images/logo/logo-white.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header ">
+            <img src="	https://html.pixelfit.agency/foodix/assets/images/logo/logo-main.png" alt="">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-black">
+            <ul class="navbar-nav justify-content-end align-items-center flex-grow-1 pe-5 gap-4">
+              <li class="nav-item dropdown" >
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Home</a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="#">Home Restaurant</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Home Burger</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Home Sushi</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Home Pizza</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Home Beef</a></li>
+                </ul>
+              </li>
+             
+              <li class="nav-item dropdown" >
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Menu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Menu List One</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Menu List Two</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Menu Grid</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Menu Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown" >
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Pages</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> About Us </a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Our Chefs</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Our Gallery</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Faqs</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Error 404</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown" >
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Shop</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Our Shop</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Product Details</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Cart</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Checkout</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Blog</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Blog Standard</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item " >
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+            </ul>
+            <div class="d-flex mt-3">
+              <button class="btn btn-outline-danger bg-danger text-white me-3 py-3 px-3 fw-bold" style="width: 150px;">BOOK A
+                TABLE</button>
+              <button class="btn btn-outline-success bg-success text-white" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel" style="height:auto">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel" style="font-family: anton;letter-spacing: 2px;">
+          My cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+          style="color: #BF2524 !important;border: 3px solid #BF2524;"></button>
+      </div>
+      <hr>
+      <!-- card main  -->
+      <div style="width: 100%;">
+        <!-- CARD 1 -->
+        <div class="cart-main d-flex justify-content-around align-items-center py-1" style="width: 90%; margin:0 auto ">
+          <div class="left" style="display: flex;align-items: center;width: 80%;column-gap: 15px;">
+            <img src="https://html.pixelfit.agency/foodix/assets/images/product/cart-1.jpg" alt=""
+              style="border-radius: 10px;width: 80px;">
+            <span>
+              <h5 style="font-family: anton;font-size: 16px;">Urban Bourbon Bliss <br> Ribeye</h5>
+              <h6 style="color: #848181;">1 × $940.00</h6>
+            </span>
+          </div>
+          <div class="right text-center" style="width: 20%;">
+            <i class="fa-regular fa-trash-can"></i>
+          </div>
+        </div>
+        <hr>
+        <!-- CARD 2 -->
+        <div class="cart-main d-flex justify-content-around align-items-center py-1" style="width: 90%; margin:0 auto ">
+          <div class="left" style="display: flex;align-items: center;width: 80%;column-gap: 15px;">
+            <img src="https://html.pixelfit.agency/foodix/assets/images/product/cart-2.jpg" alt=""
+              style="border-radius: 10px;width: 80px;">
+            <span>
+              <h5 style="font-family: anton;font-size: 16px;">Artisanal Truffle Tango <br> Sirloin</h5>
+              <h6 style="color: #848181;">1 × $940.00</h6>
+            </span>
+          </div>
+          <div class="right text-center" style="width: 20%;">
+            <i class="fa-regular fa-trash-can"></i>
+          </div>
+        </div>
+        <hr>
+        <!-- CARD 3 -->
+        <div class="cart-main d-flex justify-content-around align-items-center py-1" style="width: 90%; margin:0 auto ">
+          <div class="left" style="display: flex;align-items: center;width: 80%;column-gap: 15px;">
+            <img src="https://html.pixelfit.agency/foodix/assets/images/product/cart-3.jpg" alt=""
+              style="border-radius: 10px;width: 80px;">
+            <span>
+              <h5 style="font-family: anton;font-size: 16px;">Smoked Paprika <br> Perfection</h5>
+              <h6 style="color: #848181;">1 × $940.00</h6>
+            </span>
+          </div>
+          <div class="right text-center" style="width: 20%;">
+            <i class="fa-regular fa-trash-can"></i>
+          </div>
+        </div>
+        <hr>
+        <!-- CARD 4 -->
+        <div class="cart-main d-flex justify-content-around align-items-center py-1" style="width: 90%; margin:0 auto ">
+          <div class="left" style="display: flex;align-items: center;width: 80%;column-gap: 15px;">
+            <img src="https://html.pixelfit.agency/foodix/assets/images/product/cart-4.jpg" alt=""
+              style="border-radius: 10px;width: 80px;">
+            <span>
+              <h5 style="font-family: anton;font-size: 16px;">Tandoori Temptation <br> Tender</h5>
+              <h6 style="color: #848181;">1 × $940.00</h6>
+            </span>
+          </div>
+          <div class="right text-center" style="width: 20%;">
+            <i class="fa-regular fa-trash-can"></i>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <!-- input  -->
+      <div class="total"
+        style="margin: 0 auto;border-radius: 10px;padding: 10px 15px;border: 1px solid #848181;width: 90%;">
+        <h5 style="font-size: 18px;">Subtotal: <span style="color: #848181;font-size: 15px;">1 × $940.00</span></h5>
+
+      </div>
+      <button class="btn btn-danger py-2 fw-bold" style="width: 80%;margin:15px auto ">Proceed to checkout</button>
+    </div>
+
+
+    <!--______________________ HERO SECTION ___________________________ -->
+    <section
+      class="hero-main d-flex flex-lg-row flex-column-reverse gap-lg-5 align-items-center justify-content-center px-3 py-5 mt-5"
+      style="background-color: black; color: white; min-height: 100vh; width: 100%;">
+
+      <!-- Left Text Area -->
+      <div class="hero-left col-lg-6 col-12 text-center text-lg-start px-3" style="max-width: 500px;">
+        <p class="left-yellow text-warning fw-bolder text-uppercase">Hot for every Sunday</p>
+        <h1 class="hero-heading text-capitalize fw-bolder px-2">
+          Enjoy our <span style="color: #BF2524;">delicius</span> food
+        </h1>
+        <p class="mt-4">Savor the taste of our delicious, expertly crafted dishes made with the finest ingredients,
+          offering a
+          perfect blend of flavors.</p>
+        <button class="green-btn btn mt-3 fw-bold px-5 py-3 btn-danger">Order Now</button>
+      </div>
+
+      <!-- Right Image Area -->
+      <div class="hero-right position-relative col-lg-6 col-12 mt-4 mt-lg-0 px-3" style="max-width: 500px;">
+        <!-- Rotated "20% Off" Text -->
+        <img src="https://html.pixelfit.agency/foodix/assets/images/hero/text-03.png" alt="" class="img-fluid image-hero-off"
+          style="position: absolute; left: -6%; top: 2%; transform: rotate(-40deg);">
+        <!-- Main Food Image -->
+        <img src="https://html.pixelfit.agency/foodix/assets/images/hero/hero-four_img1.png" alt="Food Dish"
+          class="img-fluid w-100 h-auto rounded">
+      </div>
+    </section>
+    <!--__________________________ our Categories_____________________ -->
+    <section class="categories-main">
+      <div class="top-categories">
+        <!-- top heading  -->
+        <div class="top d-flex justify-content-lg-between flex-column flex-lg-row row-gap-4 mt-5">
+          <h2 class="fw-bolder hero-heading text-uppercase">our Categories</h2>
+          <button class="btn btn-outline-danger text-dark  fw-bold" style="width: 170px;">See More</button>
+        </div>
+        <!-- card main  -->
+        <div
+          class="cate-card-main d-flex justify-content-lg-between flex-wrap flex-lg-nowrap gap-3 align-items-center justify-content-center">
+          <!-- CARD 1 -->
+          <div class="cate-card d-flex align-items-center py-3 px-3 gap-3" style="border-radius: 10px;">
+            <img src="/flaticon/burger.png" alt="" class="img-fluid"
+              style="width: 60px;height: 60px;border-radius: 50%;background-color: white;padding: 10px;">
+            <span>
+              <h4 style="font-family: anton;letter-spacing: 1px;font-size: 20px;margin: 0;">Delish Burger</h4>
+              <p style="margin: 0;font-size: 14px;color: #848181;">25 items</p>
+            </span>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="cate-card d-flex align-items-center py-3 px-3 gap-3" style="border-radius: 10px;">
+            <img src="/flaticon/sandwich.png" alt="" class="img-fluid"
+              style="width: 60px;height: 60px;border-radius: 50%;background-color:white;padding: 10px;">
+            <span>
+              <h4 style="font-family: anton;letter-spacing: 1px;font-size: 20px;margin: 0;">Sandwiches</h4>
+              <p style="margin: 0;font-size: 14px;color: #848181;">20 items</p>
+            </span>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="cate-card d-flex align-items-center py-3 px-3 gap-3" style="border-radius: 10px;">
+            <img src="/flaticon/noodles.png" alt="" class="img-fluid"
+              style="width: 60px;height: 60px;border-radius: 50%;background-color: white;padding: 10px;">
+            <span>
+              <h4 style="font-family: anton;letter-spacing: 1px;font-size: 20px;margin: 0;">Mexican Cuisine</h4>
+              <p style="margin: 0;font-size: 14px;color: #848181;">30 items</p>
+            </span>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="cate-card d-flex align-items-center py-3 px-3 gap-3" style="border-radius: 10px;">
+            <img src="/flaticon/noodles.png" alt="" class="img-fluid"
+              style="width: 60px;height: 60px;border-radius: 50%;background-color: white;padding: 10px;">
+            <span>
+              <h4 style="font-family: anton;letter-spacing: 1px;font-size: 20px;margin: 0;">Italian Cuisine</h4>
+              <p style="margin: 0;font-size: 14px;color: #848181;">25 items</p>
+            </span>
+          </div>
+        </div>
+        </div>
+        <!-- bottom section  -->
+         <div class="bottom-categories flex-wrap text-center text-lg-start flex-lg-nowrap">
+         <!-- left image  -->
+          <div class="cate-left">
+            <img src="https://html.pixelfit.agency/foodix/assets/images/about/about-6.png" alt="" class="img-fluid" style="max-width: 100%;">
+          </div>
+          <!-- right content  -->
+           <div class="cate-right  px-2">
+            <p class="fw-bold text-warning">About us</p>
+            <h2 class="fw-bold text-uppercase hero-heading" style="font-family:anton;letter-spacing: 2px;">Delicia's about fresh flavorful dining</h2>
+            <p style="color: #848181;">We are passionate about serving fresh, flavorful dishes crafted with the finest ingredients. Every meal is thoughtfully prepared to deliver a memorable dining experience you'll love.</p>
+            <!-- card  -->
+            <span class="d-flex justify-content-center column-gap-3 flex-wrap flex-lg-nowrap my-4 row-gap-3 ">
+              <!-- card 1 -->
+              <div class="cate-card cates-card  d-flex align-items-center py-3 px-3 gap-3" style="border-radius: 10px;">
+            <img src="/flaticon/burger (1).png" alt="" class="img-fluid"
+              style="width: 60px;height: 60px;">
+            <span>
+              <h4 style="font-family: anton;letter-spacing: 1px;font-size: 20px;margin: 0;">1500+</h4>
+              <p style="margin: 0;font-size: 14px;color: #848181;">Total Food Item</p>
+            </span>
+          </div>
+          <!-- card 2  -->
+           <div class="cate-card cates-card  d-flex align-items-center py-3 px-3 gap-3" style="border-radius: 10px;">
+            <img src="/flaticon/franchise.png" alt="" class="img-fluid"
+              style="width: 60px;height: 60px;">
+            <span>
+              <h4 style="font-family: anton;letter-spacing: 1px;font-size: 20px;margin: 0;">500+</h4>
+              <p style="margin: 0;font-size: 14px;color: #848181;">Branch office</p>
+            </span>
+          </div></span>
+            <button class="btn btn-danger green-btn fw-bold px-5 py-3">Read More</button>
+           </div>
+      </div>
+    
+    </section>
+
+
+    <!-- Today our special Combo offers section -->
+    <section class="wrap d-flex justify-content-center row-gap-5 align-items-center px-2"
+      style="position: relative;width: 100%;height: 110vh;">
+      <div class="left">
+        <p class="text-warning fw-bold">Get 25% Discount</p>
+        <h2 class="heading text-uppercase" style="color: white;font-family: anton;">Today our special Combo
+          offers</h2>
+        <!-- counter  -->
+        <div class="time d-flex justify-content-lg-start justify-content-center gap-3 align-items-center "
+          style="width: 100%;height: 100px;">
+          <div
+            style="background-color: #8f8b8b38;border-radius: 10px;width: 80px;height: 80px;text-align: center;padding: 10px;">
+            <h5 class="fw-bolder"
+              style="font-size: 23px;color: rgb(255, 255, 255);font-family: anton;letter-spacing: 5px;">160</h5>
+            <p style="font-size: 18px;color:#848181;letter-spacing: 3px;font-weight: bold;">Days</p>
+          </div>
+
+          <div
+            style="background-color: #8f8b8b38;border-radius: 10px;width: 80px;height: 80px;text-align: center;padding: 10px;">
+            <h5 class="fw-bolder"
+              style="font-size: 23px;color: rgb(255, 255, 255);font-family: anton;letter-spacing: 5px;">0</h5>
+            <p style="font-size: 18px;color:#848181;letter-spacing: 3px;font-weight: bold;">Hour</p>
+          </div>
+
+          <div
+            style="background-color: #8f8b8b38;border-radius: 10px;width: 80px;height: 80px;text-align: center;padding: 10px;">
+            <h5 class="fw-bolder"
+              style="font-size: 23px;color: rgb(255, 255, 255);font-family: anton;letter-spacing: 5px;">25</h5>
+            <p style="font-size: 18px;color:#848181;letter-spacing: 3px;font-weight: bold;">Min</p>
+          </div>
+
+          <div
+            style="background-color:#8f8b8b38;border-radius: 10px;width: 80px;height: 80px;text-align: center;padding: 10px;">
+            <h5 class="fw-bolder"
+              style="font-size: 23px;color: rgb(255, 255, 255);font-family: anton;letter-spacing: 5px;">30</h5>
+            <p style="font-size: 18px;color:#848181;letter-spacing: 3px;font-weight: bold;">Secs</p>
+          </div>
+        </div>
+        <button class="btn btn-danger green-btn fw-bold px-5 py-3">Read More</button>
+      </div>
+      <div class="right">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/bg/bn-img-6.png" alt=""
+          class="img-fluid image-hidden" style="position: absolute; right: 0; top:0;width: 150px;">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/bg/offer-img1.png" alt="" class="img-fluid" style="max-width: 100%;
+        height: 100%;">
+      </div>
+    </section>
+
+    <!-- Why We’re Your Best Choice section -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <p class="text-warning small fw-bold mb-1">WHY CHOOSE US</p>
+        <h2 class="fw-bolder mb-5 hero-heading" style="font-family: anton;letter-spacing: 2px;">WHY WE’RE YOUR BEST
+          CHOICE</h2>
+        <div class="row g-4">
+
+          <div class="col-12 col-sm-6 col-lg-3 px-5 px-lg-3">
+            <div class="choose-box">
+              <img src="/flaticon/healthy-food.png" alt="" style="width: 50px;color: #BF2524 !important;">
+              <h5>Hygienic Food</h5>
+              <p>We are passionate about serving fresh, flavorful</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 px-5 px-lg-3">
+            <div class="choose-box">
+              <img src="/flaticon/clean-water.png" alt="" style="width: 50px;color: #BF2524 !important;">
+              <h5>Fresh Environment</h5>
+              <p>We are passionate about serving fresh, flavorful</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 px-5 px-lg-3">
+            <div class="choose-box">
+              <img src="/flaticon/chef.png" alt="" style="width: 50px;color: #BF2524 !important;">
+              <h5>Skilled Chefs</h5>
+              <p>We are passionate about serving fresh, flavorful</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 px-5 px-lg-3">
+            <div class="choose-box">
+              <img src="/flaticon/party.png" alt="" style="width: 50px;color: #BF2524 !important;">
+              <h5>Event & Party</h5>
+              <p>We are passionate about serving fresh, flavorful</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--________________ Need reservation? __________________-->
+    <section class="reservation wrap  d-flex  justify-content-center align-items-end">
+      <div
+        class="reservation-child gap-5 d-flex flex-wrap flex-lg-nowrap flex-column flex-lg-row justify-content-lg-center align-items-lg-stretch align-items-center">
+        <!-- left  -->
+        <div class="reser-left">
+          <p class="text-warning fw-bold">Reservation</p>
+          <h2 class="hero-heading text-uppercase" style="font-family: anton;letter-spacing: 2px;color: white;">Need
+            reservation? booking your table now</h2>
+          <p class="text-warning fw-bold">Order online</p>
+          <button class="btn  py-3 px-5 fw-bold res-button"><i class="fa-solid fa-phone"></i>+555-670-297</button>
+        </div>
+        <!-- right form  -->
+        <form class="row py-5 px-4 g-3 reser-right" style="background-color:#50A93C;border-radius: 10px;">
+          <h3 class="text-center" style="color: white;font-family: anton;letter-spacing: 1px;font-size: 20px;">Create An
+            Booking Table</h3>
+          <!-- First row: Name & Email -->
+          <div class="col-md-6  col-12">
+            <input type="text" class="form-control px-3 py-3 reser-input" placeholder="Your Name" required
+              style="background-color:#54AD46;border: none;">
+          </div>
+          <div class="col-md-6 col-12">
+            <input type="email" class="form-control px-3 py-3 reser-input" placeholder="Your Email" required
+              style="background-color:#54AD46;border: none;">
+          </div>
+
+          <!-- Second row: Subject & Services -->
+          <div class="col-md-6 col-12">
+            <input type="number" class="form-control px-3 py-3 reser-input" placeholder="Phone" required
+              style="background-color:#54AD46;border: none;">
+          </div>
+          <div class="col-md-6 col-12">
+            <input type="date" class="form-control px-3 py-3 reser-input" required
+              style="background-color:#54AD46;border: none;">
+          </div>
+
+          <!-- Third row: Textarea -->
+          <div class="col-12">
+            <select class="form-control px-3 py-3 reser-input" required style="background-color:#54AD46;border: none;">
+              <option selected class="reser-input">01 people</option>
+              <option>02 people</option>
+              <option>03 people</option>
+              <option>04 people</option>
+            </select>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="col-12">
+            <button type="submit" class="btn btn-warning w-100 button-reser px-5 py-3 fw-bold">Book a Table</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- Explore Our Delicious Menu -->
+    <section class="container-fluid  w-100 pt-5" style="height: auto;">
+      <p class="text-warning fw-medium text-center">Delicious Menu</p>
+      <h2 class="fw-bold text-uppercase text-center" style="font-family: anton; letter-spacing: 3px; font-size: 3rem;">
+        Explore Our Delicious <br> Menu
+      </h2>
+      <div class="container py-3">
+        <!-- card main  -->
+        <div class="row g-3">
+          <!-- CARD 1 -->
+          <div class="col-lg-6 col-12">
+            <div class="card-main d-flex py-3 px-4 justify-content-between align-items-center p-2"
+              style="background-color: #f5f5f5;">
+              <div class="left d-flex gap-2 ">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/menu/menu-thumb1.png" alt=""
+                  class="img-fluid" style="width: 60px;">
+                <span>
+                  <h4 style="font-size: 18px; font-weight: bold;">Truffle Mac and Cheese</h4>
+                  <p style="font-size: 13px; color: #848181;">Indulgent mac and cheese with truffle essence.</p>
+                </span>
+              </div>
+              <div class="right">
+                <span class="text-danger fw-bold">$25.50</span>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 2 -->
+          <div class="col-lg-6 col-12">
+            <div class="card-main d-flex py-3 px-4 justify-content-between align-items-center p-2"
+              style="background-color: #F5F5F5;">
+              <div class="left d-flex gap-2">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/menu/menu-thumb2.png" alt=""
+                  class="img-fluid" style="width: 60px;">
+                <span>
+                  <h4 style="font-size: 18px; font-weight: bold;">
+                    Grilled Ribeye Steak</h4>
+                  <p style="font-size: 13px; color: #848181;">Indulgent mac and cheese with truffle essence.</p>
+                </span>
+              </div>
+              <div class="right">
+                <span class="text-danger fw-bold">$25.50</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="col-lg-6 col-12">
+            <div class="card-main py-3 px-4 d-flex justify-content-between align-items-center p-2"
+              style="background-color: #F5F5F5;">
+              <div class="left d-flex gap-2">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/menu/menu-thumb3.png" alt=""
+                  class="img-fluid" style="width: 60px;">
+                <span>
+                  <h4 style="font-size: 18px; font-weight: bold;">Honey-Glazed Salmon</h4>
+                  <p style="font-size: 13px; color: #848181;">Indulgent mac and cheese with truffle essence.</p>
+                </span>
+              </div>
+              <div class="right">
+                <span class="text-danger fw-bold">$25.50</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="col-lg-6 col-12">
+            <div class="card-main d-flex py-3 px-4 justify-content-between align-items-center p-2"
+              style="background-color: #F5F5F5;">
+              <div class="left d-flex gap-2">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/menu/menu-thumb4.png" alt=""
+                  class="img-fluid" style="width: 60px;">
+                <span>
+                  <h4 style="font-size: 18px; font-weight: bold;">Thai Coconut Curry</h4>
+                  <p style="font-size: 13px; color: #848181;">Indulgent mac and cheese with truffle essence.</p>
+                </span>
+              </div>
+              <div class="right">
+                <span class="text-danger fw-bold">$25.50</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="col-lg-6 col-12">
+            <div class="card-main d-flex py-3 px-4 justify-content-between align-items-center p-2"
+              style="background-color: #F5F5F5;">
+              <div class="left d-flex gap-2">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/menu/menu-thumb5.png" alt=""
+                  class="img-fluid" style="width: 60px;">
+                <span>
+                  <h4 style="font-size: 18px; font-weight: bold;">Gourmet Mushroom Risotto</h4>
+                  <p style="font-size: 13px; color: #848181;">Indulgent mac and cheese with truffle essence.</p>
+                </span>
+              </div>
+              <div class="right">
+                <span class="text-danger fw-bold">$25.50</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 6 -->
+          <div class="col-lg-6 col-12">
+            <div class="card-main d-flex py-3 px-4 py-3 px-4 justify-content-between align-items-center p-2"
+              style="background-color: #F5F5F5;">
+              <div class="left d-flex gap-2">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/menu/menu-thumb6.png" alt=""
+                  class="img-fluid" style="width: 60px;">
+                <span>
+                  <h4 style="font-size: 18px; font-weight: bold;">Margarita Shrimp Tacos</h4>
+                  <p style="font-size: 13px; color: #848181;">Indulgent mac and cheese with truffle essence.</p>
+                </span>
+              </div>
+              <div class="right">
+                <span class="text-danger fw-bold">$25.50</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 7 -->
+          <div class="col-lg-6 col-12">
+            <div class="card-main d-flex py-3 px-4 justify-content-between align-items-center p-2"
+              style="background-color: #F5F5F5;">
+              <div class="left d-flex gap-2">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/menu/menu-thumb7.png" alt=""
+                  class="img-fluid" style="width: 60px;">
+                <span>
+                  <h4 style="font-size: 18px; font-weight: bold;">BBQ Bacon Burger</h4>
+                  <p style="font-size: 13px; color: #848181;">Indulgent mac and cheese with truffle essence.</p>
+                </span>
+              </div>
+              <div class="right">
+                <span class="text-danger fw-bold">$25.50</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 8 -->
+          <div class="col-lg-6 col-12">
+            <div class="card-main d-flex py-3 px-4 justify-content-between align-items-center p-2"
+              style="background-color: #F5F5F5;">
+              <div class="left d-flex gap-2">
+                <img src="https://html.pixelfit.agency/foodix/assets/images/menu/menu-thumb8.png" alt=""
+                  class="img-fluid" style="width: 60px;">
+                <span>
+                  <h4 style="font-size: 18px; font-weight: bold;">Spicy Tuna Roll</h4>
+                  <p style="font-size: 13px; color: #848181;">Indulgent mac and cheese with truffle essence.</p>
+                </span>
+              </div>
+              <div class="right">
+                <span class="text-danger fw-bold">$25.50</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- iamge slider section  -->
+<section class="image-section">
+  <div class="image-slider">
+    <div class="slider-g-track">
+      <!-- Slide 1 -->
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-18.jpg" />
+        <div class="overlay-text">
+          <h5>HAWAIIAN PIZZA</h5>
+          <p>Pizza</p>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-16.jpg" />
+        <div class="overlay-text">
+          <h5>GRILLED CHICKEN</h5>
+          <p>Spicy & Juicy</p>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-17.jpg" />
+        <div class="overlay-text">
+          <h5>FRESH SALAD</h5>
+          <p>With Olives</p>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-14.jpg" />
+        <div class="overlay-text">
+          <h5>STRAWBERRY MUFFIN</h5>
+          <p>Soft & Sweet</p>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-15.jpg" />
+        <div class="overlay-text">
+          <h5>CHOCOLATE CAKE</h5>
+          <p>Dessert</p>
+        </div>
+      </div>
+
+      <!-- Repeat for loop effect -->
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-18.jpg" />
+        <div class="overlay-text">
+          <h5>HAWAIIAN PIZZA</h5>
+          <p>Pizza</p>
+        </div>
+      </div>
+
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-16.jpg" />
+        <div class="overlay-text">
+          <h5>GRILLED CHICKEN</h5>
+          <p>Spicy & Juicy</p>
+        </div>
+      </div>
+
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-17.jpg" />
+        <div class="overlay-text">
+          <h5>FRESH SALAD</h5>
+          <p>With Olives</p>
+        </div>
+      </div>
+
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-14.jpg" />
+        <div class="overlay-text">
+          <h5>STRAWBERRY MUFFIN</h5>
+          <p>Soft & Sweet</p>
+        </div>
+      </div>
+
+      <div class="slide-g">
+        <img src="https://html.pixelfit.agency/foodix/assets/images/gallery/gallery-15.jpg" />
+        <div class="overlay-text">
+          <h5>CHOCOLATE CAKE</h5>
+          <p>Dessert</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <!-- Introducing Our Culinary Masters -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <p class="text-warning small mb-1"><i class="fas fa-utensils"></i> OUR SPECIAL CHEFS</p>
+        <h2 class="hero-heading fw-bold mb-5" style="font-family: anton;letter-spacing: 4px;">INTRODUCING OUR
+          CULINARY<br>MASTERS</h2>
+
+        <div class="row g-4 column-gap-">
+
+          <!-- Chef 1 -->
+          <div class="col-12 col-md-6 col-lg-4 px-5 px-lg-3 ">
+            <div class="team-member">
+              <img src="https://html.pixelfit.agency/foodix/assets/images/team/team-14.jpg" alt="David Liam">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+              <div class="member-info">
+                <h5>David Liam</h5>
+                <span>CEO</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chef 2 -->
+          <div class="col-12 col-md-6 col-lg-4 px-5 px-lg-3">
+            <div class="team-member">
+              <img src="https://html.pixelfit.agency/foodix/assets/images/team/team-15.jpg" alt="Alex Mika">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+              <div class="member-info">
+                <h5>Alex Mika</h5>
+                <span>Executive Chef</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chef 3 -->
+          <div class="col-12 col-md-6 col-lg-4 px-5 px-lg-3 ">
+            <div class="team-member">
+              <img src="https://html.pixelfit.agency/foodix/assets/images/team/team-16.jpg" alt="John Smith">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+              <div class="member-info">
+                <h5>John Smith</h5>
+                <span>Executive Chef</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ____________Discover Our Latest Blog Posts__________ -->
+    <section class="blog-main" style="min-height: 90vh; width: 100%;">
+      <div style="margin: 40px auto; width: 70%; text-align: center;">
+        <p class="text-warning fw-bold text-uppercase">Our Latest Blog</p>
+        <h2 class="fw-bolder text-uppercase"
+          style="font-size: 2.7rem; margin-bottom: 50px; font-family: 'Anton', sans-serif;">
+          Discover Our Latest Blog <br> Posts
+        </h2>
+
+        <!-- Responsive Cards Wrapper -->
+        <div class="row justify-content-center g-4">
+
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+            <div class="card" style="width: 20rem; background-color: #F5F5F5;">
+              <img src="https://html.pixelfit.agency/foodix/assets/images/blog/blog-17.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-start gap-4" style="font-size:13px">
+                  <span><i class="fa-regular fa-user"></i> By David</span>
+                  <span><i class="fa-regular fa-comment"></i> Comment (2)</span>
+                </div>
+                <h5 class="card-title fw-bolder text-uppercase"
+                  style="text-align: left; margin-top: 17px; font-size:17px">
+                  Crispy Stovetop Roosted Red Potatoes Foods
+                </h5>
+                <p class="card-text"
+                  style="text-align: left; margin-top: 13px; font-size: 13px; color: rgb(100, 98, 98);">
+                  Crispy stovetop red potatoes, seasoned to perfection, golden and delicious.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+            <div class="card" style="width: 20rem; background-color: #F5F5F5;">
+              <img src="https://html.pixelfit.agency/foodix/assets/images/blog/blog-18.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-start gap-4" style="font-size:13px">
+                  <span><i class="fa-regular fa-user"></i> By David</span>
+                  <span><i class="fa-regular fa-comment"></i> Comment (2)</span>
+                </div>
+                <h5 class="card-title fw-bolder text-uppercase"
+                  style="text-align: left; margin-top: 17px; font-size:17px">
+                  How to make jimmy soft boiled eggs at home
+                </h5>
+                <p class="card-text"
+                  style="text-align: left; margin-top: 13px; font-size: 13px; color: rgb(100, 98, 98);">
+                  Crispy stovetop red potatoes, seasoned to perfection, golden and delicious.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+            <div class="card" style="width: 20rem; background-color: #F5F5F5;">
+              <img src="https://html.pixelfit.agency/foodix/assets/images/blog/blog-19.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-start gap-4" style="font-size:13px">
+                  <span><i class="fa-regular fa-user"></i> By David</span>
+                  <span><i class="fa-regular fa-comment"></i> Comment (2)</span>
+                </div>
+                <h5 class="card-title fw-bolder text-uppercase"
+                  style="text-align: left; margin-top: 17px; font-size:17px">
+                  Traditional soft pretzels with sweet beer cheese
+                </h5>
+                <p class="card-text"
+                  style="text-align: left; margin-top: 13px; font-size: 13px; color: rgb(100, 98, 98);">
+                  Crispy stovetop red potatoes, seasoned to perfection, golden and delicious.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- customers reveiws  -->
+
+    <section class="text-left py-5" style="background-color: #F7F1E1;">
+      <div class="content text-center">
+        <p class="text-warning fw-bold mb-2">
+          TESTIMONIALS
+        </p>
+        <h2 class="fw-bold display-6 text-uppercase" style="font-family: anton;letter-spacing: 3px;color: black;">Our
+          Guests Are Saying</h2>
+
+      </div>
+      <div id="testimonialCarousel" class="carousel slide mt-5 text-left" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-5 mb-4">
+                  <div class="card border-0 shadow-sm p-4">
+                    <div class="testimonial-stars mb-2 fw-bolder">
+                      ★★★★★
+                    </div>
+                    <p>From the moment we walked in, we were impressed by the warm and inviting atmosphere. The food was
+                      exceptional—each dish was bursting with fresh, vibrant flavors. The staff was attentive and
+                      knowledgeable, making our dining experience.</p>
+                    <div class="d-flex align-items-center mt-4">
+                      <img src="https://i.pravatar.cc/60?img=12" class="rounded-circle me-3" width="50" height="50"
+                        alt="David Liam">
+                      <div>
+                        <h6 class="mb-0 fw-bold">David Liam</h6>
+                        <small class="text-muted">CEO</small>
+                      </div>
+                      <div class="ms-auto">
+                        <div class="testimonial-icon">❞</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 mb-4">
+                  <div class="card border-0 shadow-sm p-4">
+                    <div class="testimonial-stars mb-2 fw-bolder">
+                      ★★★★★
+                    </div>
+                    <p>From the moment we walked in, we were impressed by the warm and inviting atmosphere. The food was
+                      exceptional—each dish was bursting with fresh, vibrant flavors. The staff was attentive and
+                      knowledgeable, making our dining experience.</p>
+                    <div class="d-flex align-items-center mt-4">
+                      <img src="https://i.pravatar.cc/60?img=32" class="rounded-circle me-3" width="50" height="50"
+                        alt="Alex Mika">
+                      <div>
+                        <h6 class="mb-0 fw-bold">Alex Mika</h6>
+                        <small class="text-muted">CEO</small>
+                      </div>
+                      <div class="ms-auto">
+                        <div class="testimonial-icon">❞</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- second  -->
+          <div class="carousel-item ">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-5 mb-4">
+                  <div class="card border-0 shadow-sm p-4">
+                    <div class="testimonial-stars mb-2 fw-bolder">
+                      ★★★★★
+                    </div>
+                    <p>From the moment we walked in, we were impressed by the warm and inviting atmosphere. The food was
+                      exceptional—each dish was bursting with fresh, vibrant flavors. The staff was attentive and
+                      knowledgeable, making our dining experience.</p>
+                    <div class="d-flex align-items-center mt-4">
+                      <img src="https://i.pravatar.cc/60?img=12" class="rounded-circle me-3" width="50" height="50"
+                        alt="David Liam">
+                      <div>
+                        <h6 class="mb-0 fw-bold">David Liam</h6>
+                        <small class="text-muted">CEO</small>
+                      </div>
+                      <div class="ms-auto">
+                        <div class="testimonial-icon">❞</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 mb-4">
+                  <div class="card border-0 shadow-sm p-4">
+                    <div class="testimonial-stars mb-2 fw-bolder">
+                      ★★★★★
+                    </div>
+                    <p>From the moment we walked in, we were impressed by the warm and inviting atmosphere. The food was
+                      exceptional—each dish was bursting with fresh, vibrant flavors. The staff was attentive and
+                      knowledgeable, making our dining experience.</p>
+                    <div class="d-flex align-items-center mt-4">
+                      <img src="https://i.pravatar.cc/60?img=32" class="rounded-circle me-3" width="50" height="50"
+                        alt="Alex Mika">
+                      <div>
+                        <h6 class="mb-0 fw-bold">Alex Mika</h6>
+                        <small class="text-muted">CEO</small>
+                      </div>
+                      <div class="ms-auto">
+                        <div class="testimonial-icon">❞</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-5 mb-4">
+                  <div class="card border-0 shadow-sm p-4">
+                    <div class="testimonial-stars mb-2 fw-bolder">
+                      ★★★★★
+                    </div>
+                    <p>From the moment we walked in, we were impressed by the warm and inviting atmosphere. The food was
+                      exceptional—each dish was bursting with fresh, vibrant flavors. The staff was attentive and
+                      knowledgeable, making our dining experience.</p>
+                    <div class="d-flex align-items-center mt-4">
+                      <img src="https://i.pravatar.cc/60?img=12" class="rounded-circle me-3" width="50" height="50"
+                        alt="David Liam">
+                      <div>
+                        <h6 class="mb-0 fw-bold">David Liam</h6>
+                        <small class="text-muted">CEO</small>
+                      </div>
+                      <div class="ms-auto">
+                        <div class="testimonial-icon">❞</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 mb-4">
+                  <div class="card border-0 shadow-sm p-4">
+                    <div class="testimonial-stars mb-2 fw-bolder">
+                      ★★★★★
+                    </div>
+                    <p style="color: #a7a0a0;font-size: 14px;">From the moment we walked in, we were impressed by the
+                      warm and inviting atmosphere. The food was exceptional—each dish was bursting with fresh, vibrant
+                      flavors. The staff was attentive and knowledgeable, making our dining experience.</p>
+                    <div class="d-flex align-items-center mt-4">
+                      <img src="https://i.pravatar.cc/60?img=32" class="rounded-circle me-3" width="50" height="50"
+                        alt="Alex Mika">
+                      <div>
+                        <h6 class="mb-0 fw-bold">Alex Mika</h6>
+                        <small class="text-muted">CEO</small>
+                      </div>
+                      <div class="ms-auto">
+                        <div class="testimonial-icon">❞</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Indicators (Exact Styled) -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer Section  -->
+    <footer class="text-white pt-5 pb-4"
+      style="background-color: #111417; font-family:  sans-serif; position: relative;">
+      <div class="container text-md-left">
+        <div class="row ">
+
+          <!-- Logo-->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <img src="https://html.pixelfit.agency/foodix/assets/images/logo/logo-white.png" alt="">
+            <p class="mt-3 " style="font-size:14px;color: #848181;">Discover culinary delights recipes and inspiration
+              in our delightful food haven..</p>
+
+            <!-- Social Icons -->
+            <div class="mt-3">
+              <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h6 class="fw-bold text-uppercase mb-3">Contact Us</h6>
+            <p style="font-size:14px;color: #848181;">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+            <p style="font-size:14px;color: #848181;">+88-344-667-999</p>
+            <p style="font-size:14px;color: #848181;">order@foodix.com</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h6 class="fw-bold text-uppercase mb-3">Quick Link</h6>
+            <p><a href="#" class="text-decoration-none" style="font-size:14px;color: #848181;">Home</a></p>
+            <p><a href="#" class="text-decoration-none " style="font-size:14px;color: #848181;">About Us</a></p>
+            <p><a href="#" class="text-decoration-none " style="font-size:14px;color: #848181;">Services</a></p>
+            <p><a href="#" class="text-decoration-none " style="font-size:14px;color: #848181;">Our Menu</a></p>
+            <p><a href="#" class="text-decoration-none " style="font-size:14px;color: #848181;">Gallery</a></p>
+          </div>
+
+          <!-- Opening Times -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h6 class="fw-bold text-uppercase mb-3">Opening Time</h6>
+            <p style="font-size:14px;color: #848181;">Monday: 10.00am - 05.00pm</p>
+            <p style="font-size:14px;color: #848181;">Tuesday: 10.20am - 05.30pm</p>
+            <p style="font-size:14px;color: #848181;">Wednesday: 10.30am - 05.50pm</p>
+            <p style="font-size:14px;color: #848181;">Thursday: 11.00am - 07.10pm</p>
+            <p style="font-size:14px;color: #848181;">Friday:Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center py-3 border-top mt-4"
+        style="border-color: rgba(255,255,255,0.1)!important;color: #848181;">
+        © 2024 All rights reserved design by <span class="text-danger">Pixelfit</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
