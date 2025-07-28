@@ -44,6 +44,11 @@
     letter-spacing: 6px;
   }
 
+  h1.head-hero{
+  font-size: 5.8em;
+}
+
+
   @media (max-width: 992px) {
     h1.hero-heading {
       font-size: 4.4em;
@@ -68,7 +73,7 @@
 
    @media (max-width: 405px) {
     h1.hero-heading{
-      font-size: 2.3em;
+      font-size: 2.7em;
     }
    }
 
